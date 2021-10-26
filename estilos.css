@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegador{
+
+    padding-left: 100px;
+}
+.barra {
+    list-style-type: none;
+    float: left;
+    border: 2px solid blue;
+    padding: 10px;
+
+}
+ul li:hover > ul{
+    display: block;
+    border: 2px solid red;
+}
+li a{
+    text-decoration: none;
+color: black;
+}
+ul li ul li{
+    float: none;
+}
+ul ul{
+    display: none;
+}
