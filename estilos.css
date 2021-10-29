@@ -3,20 +3,26 @@
   padding: 0;
 }
 .header{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy';
+    font-size: 2.5em;
     position: static;
     text-align: center;
 }
 .navegador {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-content: flex-start;
+  display: block;
+  
+
 }
-.barra {
-  list-style-type: none;
-  display: inline-block;
-  padding: 5px;
+.barra_principal {  
+display: flex;
+justify-content: center;
+  padding-top: 10px;
+  
+}
+.barra{
+display: inline-block;
+padding-left: 5%;
+padding-right: 5%;
 }
 .segmento, .bateria{
     display: block;
@@ -26,7 +32,7 @@
   display: block;
 
 }
-ul a {
+ul li a {
   text-decoration: none;
   color: black;
   display: block;
