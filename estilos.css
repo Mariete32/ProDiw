@@ -47,3 +47,23 @@ ul li a {
   display: none;
   position: absolute;
 }
+.modelos{
+display: flex;
+padding: 10px;
+align-items: center;
+}
+.imagen{
+  width: 150px;
+  display: block;
+}
+.marcas_caracteristicas{
+  
+  padding: 20px;
+  
+}
+.marcas{
+  padding-top: 30px;
+}
+strong{
+  padding-left: 20px;
+}
