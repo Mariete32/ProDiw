@@ -2,68 +2,91 @@
   margin: 0;
   padding: 0;
 }
-.header{
-    font-family: 'Satisfy';
-    font-size: 2.5em;
-    position: static;
-    text-align: center;
-    color: rgb(212, 17, 17);
-    /*background-color: rgb(59, 242, 90);*/
-    background: linear-gradient(to bottom, rgb(59, 242, 90), white);
-
+/*SURFACE-VARIANT #DEE5D9 PRIMARIO #006E22 SECUNDARIO #526350
+TERCIARIO #39656B ERROR #BA1B1B FONDO #FCFDF7 on fondo #1A1C19 o #43493F*/
+.header {
+  font-family: "Satisfy";
+  font-size: 2.5em;
+  position: static;
+  text-align: center;
+  color: #006E22;
+  background-color: #DEE5D9;
 }
 .navegador {
   display: block;
-  
+  background-color: #006E22;
 
 }
-.barra_principal {  
-display: flex;
-justify-content: center;
-  padding-top: 10px;
-  
+.barra_principal {
+  display: flex;
+  justify-content: center;
+
+
 }
-.barra{
-display: inline-block;
-padding-left: 5%;
-padding-right: 5%;
+.barra {
+  display: inline-block;
+  padding: 1% 5% 1% 5%;
+  text-align: center;
 }
-.segmento, .bateria{
-    display: block;
-    padding: 5px;
+.segmento,.bateria {
+  display: block;
+  margin-top: 1%;
+  background-color: #43493F;
+  color: #DEE5D9;
 }
 .barra:hover > ul {
-  display: block;
-
+  display: block; 
 }
-ul li a {
+.enlaces:hover {
+  color: #FCFDF7;
+}
+.barra:hover{
+  background-color:#43493F;
+}
+.enlaces {
   text-decoration: none;
-  color: black;
+  font-family: "robotoBold",Arial,helvetica;
+  font-weight: bold;
+  font-size: 1.2rem;
+  COLOR: #DEE5D9;
   display: block;
-
 }
-
-.segmentos, .baterias {
+.segmentos,.baterias {
   display: none;
   position: absolute;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  width: 175px;
+  background-color: #43493F;
+  opacity: 0.95;
 }
-.modelos{
-display: flex;
-padding: 10px;
-align-items: center;
+.sub-enlaces{
+  padding-bottom: 10%;
+  padding-top: 10%;
+  font-size: 0.9em;
 }
-.imagen{
+.modelos {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+/*COMIENZA EL CSS DE INDEX.HTML*/
+.imagen-portada{
+display: block;
+width: 100%;
+height: 300PX;
+}
+/*COMIENZA EL CSS DE MARCAS.HTML*/
+.imagen {
   width: 150px;
   display: block;
 }
-.marcas_caracteristicas{
-  
+.marcas_caracteristicas {
   padding: 20px;
-  
 }
-.marcas{
+.marcas {
   padding-top: 30px;
 }
-strong{
+strong {
   padding-left: 20px;
 }
