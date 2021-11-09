@@ -70,11 +70,14 @@ TERCIARIO #39656B ERROR #BA1B1B FONDO #FCFDF7 on fondo #1A1C19 o #43493F*/
   padding: 10px;
   align-items: center;
 }
-/*COMIENZA EL CSS DE INDEX.HTML*/
+/*COMIENZA EL CSS DE main*/
 .imagen-portada{
 display: block;
 width: 100%;
 height: 300PX;
+}
+.body{
+  
 }
 /*COMIENZA EL CSS DE MARCAS.HTML*/
 .imagen {
@@ -89,4 +92,9 @@ height: 300PX;
 }
 strong {
   padding-left: 20px;
+}
+.barra.enlaces::after {
+  font-size: .7em;
+  opacity: .5;
+  content: "▽";
 }
