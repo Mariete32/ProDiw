@@ -110,13 +110,34 @@ width: 100%;
   border-radius: 5px;
   padding: 10px;
 }
-.XL {
-  width: fit-content;
-}
 .centrar {
   width: fit-content;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+/*CSS FOOTER*/
+.footer {
+  background-color: #006E22;
+  color: #DEE5D9;
+  text-decoration: none;
+  font-family: "robotoBold",Arial,helvetica;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: -0.5px;
+}
+.icono {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.hAlignPadre {
+  display: block;
+}
+.hAlignHijo {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*COMIENZA EL CSS DE MARCAS.HTML*/
