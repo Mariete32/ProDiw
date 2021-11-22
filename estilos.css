@@ -74,11 +74,51 @@ TERCIARIO #39656B ERROR #BA1B1B FONDO #FCFDF7 on fondo #1A1C19 o #43493F*/
 .imagen-portada{
 display: block;
 width: 100%;
+}
+.titulo {
+  margin: 2.5em;
+  margin-top: 3em;
+  text-align: center;
+  font-size: 2em;
+  color: #006E22;
+  font-family: "robotoBold",Arial,helvetica;
+}
+.main {
+  margin: 0;
+  padding: 0;
+}
+.cuerpo {
+  text-align: justify;
+  font-family: "robotoBold",Arial,helvetica;
+  font-size: 1.5em;
+  margin: 2em;
+}
+.seccion{
+  padding-top: 10px;
+  margin: -0.5px;
+  padding-bottom: 10px;
+}
+.A {
+  background-color: #99f89a;
+}
+.B {
+  background-color: #d5e8cf;
+}
+.boton{
+  margin: 10px;
+  background-color: #006E22;
+  border-radius: 5px;
+  padding: 10px;
+}
+.XL {
+  width: fit-content;
+}
+.centrar {
+  width: fit-content;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 
-}
-.body{
-  
-}
 /*COMIENZA EL CSS DE MARCAS.HTML*/
 .imagen {
   width: 150px;
