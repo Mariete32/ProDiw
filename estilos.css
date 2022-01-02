@@ -146,7 +146,7 @@ width: 100%;
 .tab-mar{
   display: none;
   padding: 5px;
-  width: 500px;
+  width: 560px;
   border-collapse: collapse;
   text-align: center;
 
@@ -170,7 +170,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 33%;
+  width: 40%;
 }
 .marca:hover > table{
   display: block;
