@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*SURFACE-VARIANT #DEE5D9 PRIMARIO #006E22 SECUNDARIO #526350
+TERCIARIO #39656B ERROR #BA1B1B FONDO #FCFDF7 on fondo #1A1C19 o #43493F*/
+.header {
+  font-family: "Satisfy";
+  font-size: 2.5em;
+  position: static;
+  text-align: center;
+  color: #006E22;
+  background-color: #DEE5D9;
+}
+.navegador {
+  display: block;
+  background-color: #006E22;
+}
+.barra_principal {
+  display: flex;
+  justify-content: center;
+}
+.barra {
+  display: inline-block;
+  padding: 1% 5% 1% 5%;
+  text-align: center;
+}
+.segmento,.bateria {
+  display: block;
+  margin-top: 1%;
+  background-color: #43493F;
+  color: #DEE5D9;
+}
+.barra:hover > ul {
+  display: block; 
+}
+.enlaces:hover {
+  color: #FCFDF7;
+}
+.barra:hover{
+  background-color:#43493F;
+}
+.enlaces {
+  text-decoration: none;
+  font-family: "robotoBold",Arial,helvetica;
+  font-weight: bold;
+  font-size: 1.2rem;
+  COLOR: #DEE5D9;
+  display: block;
+}
+.segmentos,.baterias {
+  display: none;
+  position: absolute;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  width: 175px;
+  background-color: #43493F;
+  opacity: 0.95;
+}
+.sub-enlaces{
+  padding-bottom: 10%;
+  padding-top: 10%;
+  font-size: 0.9em;
+}
+.barra.enlaces::after {
+  font-size: .7em;
+  opacity: .5;
+  content: "▽";
+}
+
+/*COMIENZA EL CSS DE main*/
+.imagen-portada{
+display: block;
+width: 100%;
+}
+.titulo {
+  margin: 2.5em;
+  margin-top: 3em;
+  text-align: center;
+  font-size: 2em;
+  color: #006E22;
+  font-family: "robotoBold",Arial,helvetica;
+}
+.main {
+  margin: 0;
+  padding: 0;
+}
+.cuerpo {
+  text-align: justify;
+  font-family: "robotoBold",Arial,helvetica;
+  font-size: 1.5em;
+  margin: 2em;
+}
+.seccion{
+  padding-top: 10px;
+  margin: -0.5px;
+  padding-bottom: 10px;
+}
+.A {
+  background-color: #99f89a;
+}
+.B {
+  background-color: #d5e8cf;
+}
+.boton{
+  margin: 10px;
+  background-color: #006E22;
+  border-radius: 5px;
+  padding: 10px;
+}
+.centrar {
+  width: fit-content;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/*CSS FOOTER*/
+.footer {
+  background-color: #006E22;
+  color: #DEE5D9;
+  text-decoration: none;
+  font-family: "robotoBold",Arial,helvetica;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: -0.5px;
+}
+.icono {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.hAlignPadre {
+  display: block;
+}
+.hAlignHijo {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*COMIENZA EL CSS DE MARCAS.HTML*/
+.imaFord {
+  width: 150px; 
+}
+.caracteristicas, .Ford{
+  display: none;
+  padding: 20px;
+}
+.marcas {
+  padding-top: 30px;
+}
+strong {
+  padding-left: 20px;
+}
+
+.modelos {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: auto;
+}
+.marca{
+  display: flex;
+  justify-content: center;
+}
+.marca:hover > table{
+  display: block;
+  
+}
+td, th{
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+table{
+  
+  border-collapse: collapse;
+}
+
+/*comienza css pagina baterias*/
+.hueco{
+  height: 300px;
+}

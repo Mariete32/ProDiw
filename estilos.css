@@ -15,13 +15,10 @@ TERCIARIO #39656B ERROR #BA1B1B FONDO #FCFDF7 on fondo #1A1C19 o #43493F*/
 .navegador {
   display: block;
   background-color: #006E22;
-
 }
 .barra_principal {
   display: flex;
   justify-content: center;
-
-
 }
 .barra {
   display: inline-block;
@@ -65,27 +62,94 @@ TERCIARIO #39656B ERROR #BA1B1B FONDO #FCFDF7 on fondo #1A1C19 o #43493F*/
   padding-top: 10%;
   font-size: 0.9em;
 }
-.modelos {
-  display: flex;
-  padding: 10px;
-  align-items: center;
+.barra.enlaces::after {
+  font-size: .7em;
+  opacity: .5;
+  content: "▽";
 }
+
 /*COMIENZA EL CSS DE main*/
 .imagen-portada{
 display: block;
 width: 100%;
+}
+.titulo {
+  margin: 2.5em;
+  margin-top: 3em;
+  text-align: center;
+  font-size: 2em;
+  color: #006E22;
+  font-family: "robotoBold",Arial,helvetica;
+}
+.main {
+  margin: 0;
+  padding: 0;
+}
+.cuerpo {
+  text-align: justify;
+  font-family: "robotoBold",Arial,helvetica;
+  font-size: 1.5em;
+  margin: 2em;
+}
+.seccion{
+  padding-top: 10px;
+  margin: -0.5px;
+  padding-bottom: 10px;
+}
+.A {
+  background-color: #99f89a;
+}
+.B {
+  background-color: #d5e8cf;
+}
+.boton{
+  margin: 10px;
+  background-color: #006E22;
+  border-radius: 5px;
+  padding: 10px;
+}
+.centrar {
+  width: fit-content;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/*CSS FOOTER*/
+.footer {
+  background-color: #006E22;
+  color: #DEE5D9;
+  text-decoration: none;
+  font-family: "robotoBold",Arial,helvetica;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: -0.5px;
+}
+.icono {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.hAlignPadre {
+  display: block;
+}
+.hAlignHijo {
+  display: flex;
+  justify-content: space-around;
+}
 
-}
-.body{
-  
-}
 /*COMIENZA EL CSS DE MARCAS.HTML*/
 .imagen {
   width: 150px;
-  display: block;
+  height: 110px; 
 }
-.marcas_caracteristicas {
-  padding: 20px;
+.tab-mar{
+  display: none;
+  padding: 5px;
+  width: 500px;
+  border-collapse: collapse;
+  text-align: center;
+
 }
 .marcas {
   padding-top: 30px;
@@ -93,8 +157,68 @@ width: 100%;
 strong {
   padding-left: 20px;
 }
-.barra.enlaces::after {
-  font-size: .7em;
-  opacity: .5;
-  content: "▽";
+
+.modelos {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: auto;
+}
+.marca{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+.marca:hover > table{
+  display: block;
+  border-radius: 3px;
+}
+.mar-tab-titulo{
+  padding: 5px;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #99f89a;
+  color: #006E22;
+}
+.mar-tab-head{
+  padding: 5px;
+}
+.td-comunes{
+  color: #006E22;
+  background-color: #DEE5D9;
+  text-align: center;
+padding: 5px;
+}
+
+
+/*comienza css pagina baterias*/
+.hueco{
+  height: 300px;
+}
+/*comienza pagina segmentos*/
+.segmentoTabla{
+  width: 400px;
+  height: 195px;
+  margin: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.seg-tab-head{
+  padding: 5px;
+}
+.seg-tab-titulo{
+  border-collapse: collapse;
+  background-color: #99f89a;
+  color: #006E22;
+  font-size: 1.2em;
+  
+}
+
+.segmentoDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
