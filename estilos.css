@@ -193,12 +193,7 @@ strong {
 padding: 5px;
 }
 
-
-/*comienza css pagina baterias*/
-.hueco{
-  height: 300px;
-}
-/*comienza pagina segmentos*/
+/*comienza pagina segmentos y baterias*/
 .segmentoTabla{
   width: 400px;
   height: 195px;
