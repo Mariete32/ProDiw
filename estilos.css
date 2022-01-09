@@ -217,3 +217,55 @@ padding: 5px;
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* Comienza página saber mas */
+.texto {
+  text-align: justify;
+  font-family: "robotoBold",Arial,helvetica;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 16px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #006E22;
+}
+
+.subtitle {
+  font-size: 40px;
+  color: #006E22;
+}
+.txtImagen {
+  clear: both;
+}
+.derecha {
+  float:right;
+}
+.izquierda{
+  float: left;
+}
+.grande {
+  width: 250pt;
+  height: 150pt;
+}
+.mediana {
+  width: 200pt;
+  height: 100pt;
+}
+.img{
+  margin-left: 20pt;
+  margin-right: 20pt;
+  margin-bottom: 10pt;
+  margin-top: 10pt;
+}
+
+.centro{
+  align-items: center;
+}
+.xxl{
+  width: 300pt;
+  height: 150pt;
+}
