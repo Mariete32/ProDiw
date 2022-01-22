@@ -171,6 +171,7 @@ strong {
   justify-content: center;
   align-items: center;
   width: 40%;
+  padding-top: 30px;
 }
 .marca:hover > table{
   display: block;
